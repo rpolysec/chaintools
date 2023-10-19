@@ -1,0 +1,910 @@
+{
+  "0xBA12222222228d8Ba445958a75a0704d566BF2C8": {
+    "name": "Balancer V2",
+    "category": "decentralized exchange"
+  },
+  "0xf5474A973A0814233E24f967aEA2261C1E353794": {
+    "name": "poi atm",
+    "category": "atm"
+  },
+  "0x9008D19f58AAbD9eD0D60971565AA8510560ab41": {
+    "name": "Cow Swap",
+    "category": "decentralized exchange"
+  },
+  "0xfBFcAC54E373Aa23e43ADF472E120AB67eFD1459": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x8568f07b28055DDe60E020195F9d5E958AB998aF": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x1CBd404629EAA1Acc4188DE17734C251a025f55a": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0xB956375dC361f6363e7a93E07eE1acb6167009E8": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0xD1705bc21E6e10bf3dcf67048624b48dC74C654C": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x0708E5ECf3983Db25C939ec590c9BD855c8Af88b": {
+    "name": "KuCoin.com",
+    "category": "exchange"
+  },
+  "0xF2750EAd8816CbA74F8c9Ab84B8Cee67A1772348": {
+    "name": "",
+    "category": "unnamed service"
+  },
+  "0x7a302f3740B26053f250f869EA1bF9823b005C09": {
+    "name": "OKX.com",
+    "category": "exchange"
+  },
+  "0x2FAF487A4414Fe77e2327F0bf4AE2a264a776AD2": {
+    "name": "FTX.com",
+    "category": "exchange"
+  },
+  "0xfdb16996831753d5331fF813c29a93c76834A0AD": {
+    "name": "Huobi.com",
+    "category": "exchange"
+  },
+  "0xC6CDE7C39eB2f0F0095F41570af89eFC2C1Ea828": {
+    "name": "Bitfinex.com",
+    "category": "exchange"
+  },
+  "0x65b3ca1A47881958265CF1497C131dDa66C99E48": {
+    "name": "Bitstamp.net",
+    "category": "exchange"
+  },
+  "0x676AB94E00d548A532c42D9245C7d2b3eF261eb2": {
+    "name": "Coinbase.com",
+    "category": "exchange"
+  },
+  "0x127a4584A6582a05D3c51bea305621aAe014BF39": {
+    "name": "Kraken.com",
+    "category": "exchange"
+  },
+  "0x11b815efB8f581194ae79006d24E0d814B7697F6": {
+    "name": "Uniswap V3",
+    "category": "decentralized exchange"
+  },
+  "0x3416cF6C708Da44DB2624D63ea0AAef7113527C6": {
+    "name": "Uniswap V3",
+    "category": "decentralized exchange"
+  },
+  "0xa7fB5cA286Fc3FD67525629048a4de3bA24Cba2E": {
+    "name": "TradeQuo.com",
+    "category": "exchange"
+  },
+  "0x42cF8823e1420A9B9f28494AA0c30420c688D5Dc": {
+    "name": "Bittrex.com",
+    "category": "exchange"
+  },
+  "0x65b0BF8Ee4947edD2A500D74E50a3d757DC79de0": {
+    "name": "Nexo.io",
+    "category": "exchange"
+  },
+  "0xB08aEF73A2C94da81CEAD63e5d04B50E3fd4828C": {
+    "name": "Crypto.com",
+    "category": "exchange"
+  },
+  "0xC6f5dD19427Df2795d2BF79Fd5Dd24e93bC3edDd": {
+    "name": "Gate.io",
+    "category": "exchange"
+  },
+  "0x292f04a44506c2fd49Bac032E1ca148C35A478c8": {
+    "name": "CoinsPaid.com",
+    "category": "merchant services"
+  },
+  "0x34872874b65E12408eC0265E9cf0a35FA6c8D13E": {
+    "name": "Bitrue.com",
+    "category": "exchange"
+  },
+  "0xD8DB73F025adF9F1f6A754A4B0b7A9349B7Ff128": {
+    "name": "Bybit.com",
+    "category": "exchange"
+  },
+  "0x11111254369792b2Ca5d084aB5eEA397cA8fa48B": {
+    "name": "1inch Network",
+    "category": "decentralized exchange"
+  },
+  "0x0d4a11d5EEaaC28EC3F61d100daF4d40471f1852": {
+    "name": "Uniswap V2",
+    "category": "decentralized exchange"
+  },
+  "0x3041CbD36888bECc7bbCBc0045E3B1f144466f5f": {
+    "name": "Uniswap V2",
+    "category": "decentralized exchange"
+  },
+  "0x74C99F3f5331676f6AEc2756e1F39b4FC029a83E": {
+    "name": "Crypto.com DeFi Swap: WETH 0xc02aaa - USDT 0xdac17f",
+    "category": "decentralized exchange"
+  },
+  "0x06da0fd433C1A5d7a4faa01111c044910A184553": {
+    "name": "SushiSwap: WETH 0xc02aaa - USDT 0xdac17f",
+    "category": "decentralized exchange"
+  },
+  "0x4e68Ccd3E89f51C3074ca5072bbAC773960dFa36": {
+    "name": "Uniswap V3",
+    "category": "decentralized exchange"
+  },
+  "0xF422e2EaD57A14DA281F02f4da506Cba590CB9e2": {
+    "name": "Stake.com",
+    "category": "gambling"
+  },
+  "0x0211f3ceDbEf3143223D3ACF0e589747933e8527": {
+    "name": "MEXC.com",
+    "category": "exchange"
+  },
+  "0x0e71DEdAdBC2A2a3fe7bfa2aE733Dae1540bD1B4": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0xdAC17F958D2ee523a2206206994597C13D831ec7": {
+    "name": "USDT Token Contract",
+    "category": "token smart contract"
+  },
+  "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+    "name": "USDC Token Contract",
+    "category": "token smart contract"
+  },
+  "0x4Fabb145d64652a948d72533023f6E7A623C7C53": {
+    "name": "Binance USD Token (BUSD)",
+    "category": "token smart contract"
+  },
+  "0x9220BE4709Eb37E5e0673A5DDC084Ada4e42E628": {
+    "name": "Coinbase.com",
+    "category": "exchange"
+  },
+  "0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD": {
+    "name": "Uniswap Universal Router",
+    "category": "decentralized exchange"
+  },
+  "0xAa749190f7259cdd2a18cb0Ac42957dA4d8909e0": {
+    "name": "THORChain Router",
+    "category": "decentralized exchange"
+  },
+  "0x04abEdA201850aC0124161F037Efd70c74ddC74C": {
+    "name": "Telcoin TEL",
+    "category": "token smart contract"
+  },
+  "0x9f66adf9e7d1eFc6dD44cf3C2734bE8ce9dD7116": {
+    "name": "BitMart.com",
+    "category": "exchange"
+  },
+  "0x3b18B10728c855e9c400D8Cb72C2Db6cbfc0FE58": {
+    "name": "CoinEx.com",
+    "category": "exchange"
+  },
+  "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE": {
+    "name": "Shiba Inu Token (SHIB)",
+    "category": "token smart contract"
+  },
+  "0x43305382781d9AD351923B8748Da7037A160f677": {
+    "name": "CoinGate.com",
+    "category": "exchange"
+  },
+  "0x6De037ef9aD2725EB40118Bb1702EBb27e4Aeb24": {
+    "name": "Render Token (RNDR) - 0x6de037ef9ad2725eb40118bb1702ebb27e4aeb24",
+    "category": "token smart contract"
+  },
+  "0xC88F7666330b4b511358b7742dC2a3234710e7B1": {
+    "name": "Blockchain.com",
+    "category": "exchange"
+  },
+  "0x46340b20830761efd32832A74d7169B29FEB9758": {
+    "name": "Crypto.com",
+    "category": "exchange"
+  },
+  "0xa0D2b40f144557662639AA0c030c87f4da9324Ed": {
+    "name": "Roobet.com",
+    "category": "gambling"
+  },
+  "0x368829aF7DeC4C8cdCbb3649EbBeC6e079e9Dd65": {
+    "name": "Roobet.com",
+    "category": "gambling"
+  },
+  "0xf78984DaDdF3678382E48152D7CB5bfED6106Ebe": {
+    "name": "KuCoin.com",
+    "category": "exchange"
+  },
+  "0x78eA7D034F59Db037D1104813AE46E3bF0c38ee5": {
+    "name": "Gate.io",
+    "category": "exchange"
+  },
+  "0x29D5527CaA78f1946a409FA6aCaf14A0a4A0274b": {
+    "name": "Bitso.com",
+    "category": "exchange"
+  },
+  "0x090D4613473dEE047c3f2706764f49E0821D256e": {
+    "name": "Uniswap V3",
+    "category": "decentralized exchange"
+  },
+  "0xcf0C122c6b73ff809C693DB761e7BaeBe62b6a2E": {
+    "name": "FLOKI (FLOKI) - 0xcf0c122c6b73ff809c693db761e7baebe62b6a2e",
+    "category": "token smart contract"
+  },
+  "0x6d19b2bF3A36A61530909Ae65445a906D98A2Fa8": {
+    "name": "Balancer V2",
+    "category": "decentralized exchange"
+  },
+  "0x6B175474E89094C44Da98b954EedeAC495271d0F": {
+    "name": "MakerDAO Dai",
+    "category": "token smart contract"
+  },
+  "0x236F9F97e0E62388479bf9E5BA4889e46B0273C3": {
+    "name": "OKX.com",
+    "category": "exchange"
+  },
+  "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f": {
+    "name": "Uniswap V2",
+    "category": "decentralized exchange"
+  },
+  "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
+    "name": "Wrapped Ether Contract",
+    "category": "token smart contract"
+  },
+  "0xCE3f08e664693ca792caCE4af1364D5e220827B2": {
+    "name": "SAITAMA (SAITAMA) - 0xce3f08e664693ca792cace4af1364d5e220827b2",
+    "category": "token smart contract"
+  },
+  "0xF65c1595B64E73DcB551bd7eeDcB43eb2c769BE2": {
+    "name": "THORChain",
+    "category": "decentralized exchange"
+  },
+  "0xd7d6883A97426A6BE1C421Ed7E38f4ea6BC2b681": {
+    "name": "Stake.com",
+    "category": "gambling"
+  },
+  "0x5BCbdfB6cc624b959c39A2D16110D1f2D9204F72": {
+    "name": "Yolo.com",
+    "category": "gambling"
+  },
+  "0x11eDedebF63bef0ea2d2D071bdF88F71543ec6fB": {
+    "name": "MetaMask.io Swap",
+    "category": "decentralized exchange"
+  },
+  "0x963737C550E70FFe4D59464542a28604eDb2eF9a": {
+    "name": "Changelly.com",
+    "category": "exchange"
+  },
+  "0x04Bf40A81dd28591465823089c9d3A7ad19bC6B3": {
+    "name": "Switchain.com",
+    "category": "exchange"
+  },
+  "0x85C9951719aDfaf4f792e5960Ecdf13BA115e3C1": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0xBb69e01921b17cD22080968bcc96Ba6115Da6062": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x0887Ee2957aCD07574258CaC9d03CBff42ed7ee1": {
+    "name": "KuCoin.com",
+    "category": "exchange"
+  },
+  "0x0E8232d18188462ab84e6a1fE29C2BfDf2d4Cd8f": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x2097BF86F6762ee56e46C55D2bF09f252858ddfE": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x72aC4E720325c73d4BD08a90085359Cb2b9CEfE6": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x607a16EFb35CcE08a9120660903612871c915232": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0xf9f47E43F083Db54cC03599A945Faf40ce7F34cc": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x3A7F80c4d5543C3854F818d1d6E3D5a65D718d83": {
+    "name": "OKX.com",
+    "category": "exchange"
+  },
+  "0xa7ae66bF96c83FDE3dFf3d61f3b8a4661d3181E2": {
+    "name": "FTX.com",
+    "category": "exchange"
+  },
+  "0x500Eb699aca56a7537A5F89B7BCAc02E6EE6FeF5": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0xB8731B48e745f30F6Fb9C9B13DDaDC40Ae8E3C26": {
+    "name": "OKX.com",
+    "category": "exchange"
+  },
+  "0x666129e7D2b5bC416c431a2279519AbBE87Cc04e": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x1d04F0cc2AEb2378e3995d99fAFC2512Fc55686f": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0xf9cbc996c3eA5ec02Ed45E649a466638d0fd356D": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x7Fb6B6E1A1e6e954bBef1d291945b195d51A34EC": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x522ee4130B819355e10218E40d6Ab0c495219690": {
+    "name": "ccpnfts.eth",
+    "category": ""
+  },
+  "0xf60231330aD7D5C3c0b4101327545B8759ae94BE": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x09795CF47fa59D4a4785d9BeF0c210625477A85c": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x9f184f22237E50bB94A0E6a52B8A977B27B07362": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0xa9D59750309d50AdA9c7905b15Ea4b21e2c208d8": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x51c13DDca53543E6a1EE979740C5B2a6c56aF9D5": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x8E707Ae484CDD72946b22c174438516b4760c9CB": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x2d8424BE545e7343D5df7aa78E3aBC06ad8dD5dD": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x7a61C7722a39F17cC4dc5516c1CfF8524A6Dd80c": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0xBdDB878B393bf91F8d34b2eDF7087ca529E3ccaF": {
+    "name": "cyborgnomad.eth",
+    "category": ""
+  },
+  "0xfABe3061A50B1dA86AEccbB0228141C5F7C43081": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x69Aa39D524405aC35Ad44a29acC9732bC71AdF6D": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0xf6aCD021a912427c7F49787C44E950162d55051F": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0xbc88CD9b27eE53109001865391C8bdAf4216Bd8d": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0xD4A481bED2809730BFEe3859CA0B37EDE687A90F": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x9723b6d608D4841eB4Ab131687a5D4764eb30138": {
+    "name": "OKX.com",
+    "category": "exchange"
+  },
+  "0x68841a1806fF291314946EebD0cdA8b348E73d6D": {
+    "name": "OKX.com",
+    "category": "exchange"
+  },
+  "0x313Eb1C5e1970EB5CEEF6AEbad66b07c7338d369": {
+    "name": "OKX.com",
+    "category": "exchange"
+  },
+  "0xc94cD92F194883C0bA5525762414f6F9094d0405": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0xa50913D65d9602f2bCd89ecaf0c34C86c76BD373": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x14A56EEa99eC8a13a4A3947fF89c91F54048C5Db": {
+    "name": "Bittrex.com",
+    "category": "exchange"
+  },
+  "0xc57Bf7Bf8B0679240cE172F5B2cD4e0Ed276e39C": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x0285DD1c6ba80E9FB9c561Ff2550Bc944B92aC5d": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x73D716eEf6F90Db4Bc690A47DC936700824974cc": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x2eAc5f82F5A00659444a31adF22D44D74BcE4B8E": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0xd12f99986b4Feb93DF5c8f7Ff4e67bF225C5B679": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x3C8a84661Fbf47483cc1001e1a731b04586d3646": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x9F406f704B447D2C9bc597bC2b3fC6F1e1995808": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0xCd8373467Eda06D92Ee73f57013317F74fc32a0b": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0xfAad945CE7782771E7ABE75C8C27CdE793aF7715": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x03167a9109c2dEd6f8341b98614a8331DAfe620a": {
+    "name": "abdulazeem.eth",
+    "category": ""
+  },
+  "0x7cDc1538FE8b53644873a1EE7F938f3539c8ac8A": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0xf624BACaC13F3849dAE97e28a39F376466249A68": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x6f354f17c19638D08226296644bFFB5440d73364": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x6c260149E0325B6bb03823C04Ca5F057F73450b1": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0xA9D06aEa8fABcFf0af6B320DCb0da77fE449A7cc": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x5861ab8fC0c63F2B98Fa7354c7e493765aD404dA": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x2a6b58d499ecfB3268043cBFfbFcC11aACBC1533": {
+    "name": "poganlaul.eth",
+    "category": ""
+  },
+  "0x24fcdF2f14cceAA7ba955614E402eD95a796b829": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0xc146aAfe5201596804FC4118212721a094e32F8e": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0xbDb2018f6De41FB68730D3989bAFF9868a814c7e": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0xBCCF324aAC34Fe6EEBe669d76dAF4fD0eed1C1aD": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0xAe88e010adB82A2139D5D2D58b0Fa17e003F5220": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x1d93C5D4eB319e6FcC99Df7421a9aE0C56D56049": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x779836DD688324FE0FE9d25FC199cAD757704871": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x929a57293631890C46CEF8D28BA15D5203Dc062b": {
+    "name": "Bybit.com",
+    "category": "exchange"
+  },
+  "0x445b1E705bD9a4f1Fc12826Ae1120B20F0036122": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x0af0e7a436F8E10c30002A971CF7870044A550A3": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x08B97C79DaA87cA4d92aCd09A3B99a6b10FB4e7B": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x923f064fe9564133b7794Dc7938DD2F310cd052C": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x28C6c06298d514Db089934071355E5743bf21d60": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x9d19A2733ADe3f8328E0FdD00eF8a0dE550a528f": {
+    "name": "CoinGate.com",
+    "category": "exchange"
+  },
+  "0xdd6fE65899B34D9A42171DF27b021562f1A1130C": {
+    "name": "CoinGate.com",
+    "category": "exchange"
+  },
+  "0xa1b556Fb6CC6Cc0D667b7331870f5AB1374f10Bd": {
+    "name": "CoinGate.com",
+    "category": "exchange"
+  },
+  "0x58B88dF9297aF899c1c0b130c3fD5AadD9F05f7f": {
+    "name": "Gate.io",
+    "category": "exchange"
+  },
+  "0xEf1c6E67703c7BD7107eed8303Fbe6EC2554BF6B": {
+    "name": "Uniswap V3",
+    "category": "decentralized exchange"
+  },
+  "0x7726b0D584668Ab283EA06965D5D4fDA61b7CaD6": {
+    "name": "CoinGate.com",
+    "category": "exchange"
+  },
+  "0x1742eBA3AAFa84B7A5e95D232ED5EB748e9Df8B8": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x1111111254fb6c44bAC0beD2854e76F90643097d": {
+    "name": "1inch Network",
+    "category": "decentralized exchange"
+  },
+  "0x5829a8516D074b25214574E019A5B4bDe2DdE150": {
+    "name": "KuCoin.com",
+    "category": "exchange"
+  },
+  "0x1c4e2B4ec1831f514fbA643cb6f85eC909d63c47": {
+    "name": "Crypto.com",
+    "category": "exchange"
+  },
+  "0xbDa2Df9e10be7D7D206bb9a94e17c9f1c55860A1": {
+    "name": "CoinGate.com",
+    "category": "exchange"
+  },
+  "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D": {
+    "name": "Uniswap V2",
+    "category": "decentralized exchange"
+  },
+  "0x3561237b7A443fc3F566E5Eb72201cfc8d17610B": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x67c07F99555ea2B24777efFdF8f14845870eEd9C": {
+    "name": "KuCoin.com",
+    "category": "exchange"
+  },
+  "0xa8C6750BCA819cE3626Fd3D92ED40AC333D6C033": {
+    "name": "CoinGate.com",
+    "category": "exchange"
+  },
+  "0x25a54df3b62375A49157d2a773c3bA48293B01f8": {
+    "name": "CoinGate.com",
+    "category": "exchange"
+  },
+  "0xe8e9961d00E1c4A251998e4118d2Bb9eC2605Bbe": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0xca044ffa792299c0C94eB500eaCF8f139390f706": {
+    "name": "Roobet.com",
+    "category": "gambling"
+  },
+  "0x1b8a88CB1A1a53Eebd56435C2A5AFDB8a81F64b9": {
+    "name": "Roobet.com",
+    "category": "gambling"
+  },
+  "0xc587818166Beb6a36fe82901332FB3341C40f5C5": {
+    "name": "Roobet.com",
+    "category": "gambling"
+  },
+  "0x314F83f7Da0453F2DFF558CbCFD6bF38c7213f01": {
+    "name": "Roobet.com",
+    "category": "gambling"
+  },
+  "0xf7a353C6EaC9C4D17a95FE1B433C4f27d165aB5a": {
+    "name": "Roobet.com",
+    "category": "gambling"
+  },
+  "0xB9Cd6accc0C2727f7F61C99Fb1b41120FD82C6CD": {
+    "name": "Roobet.com",
+    "category": "gambling"
+  },
+  "0x1cc12b0e320052cd4d0CfC77f6367d48660c932E": {
+    "name": "BitMart.com",
+    "category": "exchange"
+  },
+  "0x809FC606D380F5bfD3FFadc7645f4A258EB889eA": {
+    "name": "Roobet.com",
+    "category": "gambling"
+  },
+  "0x881D40237659C251811CEC9c364ef91dC08D300C": {
+    "name": "MetaMask.io Swap",
+    "category": "decentralized exchange"
+  },
+  "0xf107c1DD7E70ee2FEe2e7ac5E69907e20f487005": {
+    "name": "KuCoin.com",
+    "category": "exchange"
+  },
+  "0x8BCeaA96CA68Cd325305b46f887FA433700C7C04": {
+    "name": "Switchain.com",
+    "category": "exchange"
+  },
+  "0x58E5E45c6C61Dd22232f8Eb5b7Dd88b42Bcc9866": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x8f91314A2203A20EBAa11E68a0A2898c233dE11c": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x42EeC5df8cAC1085Cc3523BbD4d34C0B4772c41C": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x87d048796104F2aac317FA741Bfe18db7F6084aD": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x7d4CF88301A54c6181deb19B0c2724c9aef637A5": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x21A138FD1e15cc62b38fCf68cf39986B81E2DC87": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x9bE2DCd052e71eDCD002691623E5ec6dFB9CA718": {
+    "name": "THORChain",
+    "category": "decentralized exchange"
+  },
+  "0xbDF348cd961e303B484928BcB2fE0Bd6D4Ee0855": {
+    "name": "THORChain",
+    "category": "decentralized exchange"
+  },
+  "0x69bDa56440C55684D650a3df570EDa08D796F1b6": {
+    "name": "THORChain",
+    "category": "decentralized exchange"
+  },
+  "0x1b0FBA7Fe2362BbB764DBD5f0Aba0465BaD1AeC1": {
+    "name": "KuCoin.com",
+    "category": "exchange"
+  },
+  "0xf389963650bb93102034058efc2677Ef22a64C1f": {
+    "name": "CoinGate.com",
+    "category": "exchange"
+  },
+  "0x52c1A1d2b1b2B1a7c7CF8eEcC7314617F28Ae8EA": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x5E74aEb3a18949Aa7FfCbF9A5054822BF98fb67b": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0xf1649134E8D16baddE852152E35f70704Fab3d03": {
+    "name": "Kraken.com",
+    "category": "exchange"
+  },
+  "0x53222470CdcfB8081C0E3a50fd106f0D69e63F20": {
+    "name": "1inch Network",
+    "category": "decentralized exchange"
+  },
+  "0x773dD321873fe70553ACC295b1b49A104d968CC8": {
+    "name": "Uniswap V2",
+    "category": "decentralized exchange"
+  },
+  "0x7122db0Ebe4EB9B434a9F2fFE6760BC03BFbD0E0": {
+    "name": "1inch Network",
+    "category": "decentralized exchange"
+  },
+  "0x5BF2b374C19E077188F937369b6dF0c2E0cd0edE": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x5Ab5D7734cd1a1E01d23e09A7deE422A47BE3041": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x7C23a3ac05Ea70E0890eF00e049FC13952de6B1D": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0xF7db969c9C960F4262D0d0dCf0F85A359c2feD4f": {
+    "name": "OKX.com",
+    "category": "exchange"
+  },
+  "0x6a960cf07619dfA5f8e490D0b16D56928FE48751": {
+    "name": "OKX.com",
+    "category": "exchange"
+  },
+  "0x234Ec5C40efADf590B4560a21a3E8b58B7eBd68E": {
+    "name": "OKX.com",
+    "category": "exchange"
+  },
+  "0x3C8B3b4BeF1416f3D03faE33116e1582DF20B785": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x31B341e24521442e20F23E06B81a76726cC8d60D": {
+    "name": "OKX.com",
+    "category": "exchange"
+  },
+  "0x4211C01128b8e9ce0dB5eDbADCBb2e185e3fFC8b": {
+    "name": "OKX.com",
+    "category": "exchange"
+  },
+  "0x1fA2F8A99badA0a3329CaD1EaE48a78036eb3b3d": {
+    "name": "MEXC.com",
+    "category": "exchange"
+  },
+  "0xb353f8Af68311c66c22E4bCf1B81352c9c81d59A": {
+    "name": "KuCoin.com",
+    "category": "exchange"
+  },
+  "0xF28352B633E6f70fB7C1d6F3C9f88E134f576524": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x918Ea7b3855d7E848932444c9b01a70594ef1C23": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0xc2a6a28c17D83707A77893fD733D9383e06ff57A": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x93dB1135a59035421468EFe4e04b1159FA0E0F3C": {
+    "name": "Coinbase.com",
+    "category": "exchange"
+  },
+  "0x467Bccd9d29f223BcE8043b84E8C8B282827790F": {
+    "name": "Telcoin TEL",
+    "category": "token smart contract"
+  },
+  "0xC6A7cb02B685dba3B1D34aC212Cb54eA156b5e54": {
+    "name": "BitMart.com",
+    "category": "exchange"
+  },
+  "0xC5e46E42Df2c20C7778E76D7FAF4947eF16BDf99": {
+    "name": "CoinEx.com",
+    "category": "exchange"
+  },
+  "0x5f7fbBd4c36AaDE19e8FF5c3cc79AD34DADc0DFE": {
+    "name": "Blockchain.com",
+    "category": "exchange"
+  },
+  "0x0CBb5cA95582Af00f7fFfecA8af7C4B4CDB0B40F": {
+    "name": "Crypto.com",
+    "category": "exchange"
+  },
+  "0x9c0567e186dF565192d824AE80038Bc8dAe939C2": {
+    "name": "Blockchain.com",
+    "category": "exchange"
+  },
+  "0x24Fff2b651113B539b43e109504AdD70223F905d": {
+    "name": "Blockchain.com",
+    "category": "exchange"
+  },
+  "0x1305385ff91635F565502512DEfE29C2dBA7D981": {
+    "name": "Roobet.com",
+    "category": "gambling"
+  },
+  "0xE40d6Ab81Fd6D3030febA37fFA915db26F279089": {
+    "name": "Roobet.com",
+    "category": "gambling"
+  },
+  "0xAD0CD19Ef8AcC4f8a29A55f45ffE8cE8d46f9f1E": {
+    "name": "Roobet.com",
+    "category": "gambling"
+  },
+  "0x3c700D16b065336ced7cc025e0EE88C8EFb647F5": {
+    "name": "Roobet.com",
+    "category": "gambling"
+  },
+  "0xA9ef2583CcC4aEC9dC7A6ccf7a8AdFFf7cE7D6F3": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x11111112542D85B3EF69AE05771c2dCCff4fAa26": {
+    "name": "1inch Network",
+    "category": "decentralized exchange"
+  },
+  "0xE7ADab04956Dfa3B3077A286CafF326742609A49": {
+    "name": "Crypto.com",
+    "category": "exchange"
+  },
+  "0x1C91635ad1aE5E8DE5ef865b0731182358e34f01": {
+    "name": "KuCoin.com",
+    "category": "exchange"
+  },
+  "0x714ac9A677514FE25666643D4647379Ea15F80b2": {
+    "name": "Crypto.com",
+    "category": "exchange"
+  },
+  "0xf5474A973A0814233E24f967aEA2261C1E353794": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0xdAF05C9bdE33De88Aaf75CfF729299796af4F2c6": {
+    "name": "KuCoin.com",
+    "category": "exchange"
+  },
+  "0xA7EFAe728D2936e78BDA97dc267687568dD593f3": {
+    "name": "OKX.com",
+    "category": "exchange"
+  },
+  "0xBf94F0AC752C739F623C463b5210a7fb2cbb420B": {
+    "name": "OKX.com",
+    "category": "exchange"
+  },
+  "0xf7858Da8a6617f7C6d0fF2bcAFDb6D2eeDF64840": {
+    "name": "OKX.com",
+    "category": "exchange"
+  },
+  "0x82f0ce5bcDa1e54c11b562eaB5Bb62eb8dFa5005": {
+    "name": "KuCoin.com",
+    "category": "exchange"
+  },
+  "0xba2B3Ca289bD2D995bdEE35D9a1A381D7957F0f6": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x0E4c8bD58e3a65361b38085834075286a598eEB0": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0x405E9aC3ed47c689CbfbC7E4393288195F79D8dC": {
+    "name": "Coinbase.com",
+    "category": "exchange"
+  },
+  "0x463EaF44fE2574dcf73cA04a59D45FbE150E111f": {
+    "name": "THORChain",
+    "category": "decentralized exchange"
+  },
+  "0x0DC8fBc06C99583c45e34a80b13f1143A1794587": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0xED43701d366B75C22Bd53014Af48FB4DE4ee2811": {
+    "name": "Binance.com",
+    "category": "exchange"
+  },
+  "0xd4D05a1d185c045c5c78685E0aA24641dc8EB5f3": {
+    "name": "Coinbase.com",
+    "category": "exchange"
+  },
+  "0xac5E6EdE17d6711F6aC9eBF4C79224c4E3A06304": {
+    "name": "KuCoin.com",
+    "category": "exchange"
+  },
+  "0x4f41c9981e0afDE982286cC6348793D942f569a9": {
+    "name": "Binance.com",
+    "category": "exchange"
+  }
+}
