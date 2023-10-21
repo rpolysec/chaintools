@@ -15,10 +15,8 @@ import time
 etherscan_api_key = ''
 
 # locations for various files
-home_dir = ''
 cache_dir = ''
 tainted_tx_dir = ''
-csv_tx_dir = ''
 attrib_file = ''
 
 getcontext().prec = 18
@@ -51,13 +49,14 @@ def main():
     global FundsQueue
     global new_taintedTx
     global attribs
+    global cache_dir
+    global tainted_tx_dir
+    global etherscan_api_key
 
     # read in the configuration
     etherscan_api_key = config['keys']['EtherscanAPI']
-    home_dir = config['locations']['HomeDir']
     cache_dir = config['locations']['CacheDir']
     tainted_tx_dir = config['locations']['TaintedTxDir']
-    csv_tx_dir = config['locations']['CsvTxDir']
     attrib_file = config['locations']['AttribFile']
 
     # list of ethereum addresses we have attribution for
@@ -103,14 +102,25 @@ def update_txn_cache(address_file):
         addrs.append(address)
     
     cache_tx = []
+    erc20_cache_tx = []
     for a in addrs:
+        # if this is a contract or a service we don't want to grab all txns
+
         # get a list of txns
         cache_tx = update_local_cache(a)
         # if there is more then one txn write them out
         if len(cache_tx) > 0:
             write_cache_tx(a,cache_tx)
+
+        # get a list of erc20 transfers
+        erc20_cache_tx = update_local_erc20_cache(a)
+        if len(erc20_cache_tx) > 0:
+            write_erc20_cache_tx(a,erc20_cache_tx)
+
         # clear txns to prepare for the next batch
         cache_tx = []
+        erc20_cache_tx = []
+
         # sleep a bit so we don't hit the rate limit
         time.sleep(3)
 
@@ -376,6 +386,7 @@ def processTaintedCredit(txn_q,exp_val):
 # Reviewd for checksum addresses
 def writeOutTaintedTxns(token):
     global new_taintedTx
+    global tainted_tx_dir
     rel_taintedTxFiles = {}
 
     # load all relevant tainted transaction files
@@ -429,6 +440,7 @@ def writeOutTaintedTxns(token):
 # If there is a tainted transaction file in
 # this directory, read tainted transactins from it
 def build_tainted_txn_table(address):
+    global tainted_tx_dir
     if not Web3.is_checksum_address(address):
         address = Web3.to_checksum_address(address)
     taintedTx = {}
@@ -454,12 +466,25 @@ def write_cache_tx(a,cache_tx):
         tx_file.write(json.dumps(t))
         tx_file.write('\n')
 
+#----------------------------
+# write out all our cached transactions
+# cheksum address
+def write_erc20_cache_tx(a,cache_tx):
+    global cache_dir
+    if not Web3.is_checksum_address(a):
+        a = Web3.to_checksum_address(a)
+    filename = '{}/{}_erc20_cache.json'.format(cache_dir,a)
+    tx_file = open(filename,'w')
+    for t in cache_tx:
+        # this is one json object per line
+        tx_file.write(json.dumps(t))
+        tx_file.write('\n')
+
 #---------------------------
 # Check if we already have a local cache
 # Load transactions into memory
 # Check the block number of the most recent transaction
 # Get all transactions for this address since the last one
-# checksum address
 def update_local_cache(a):
     if not Web3.is_checksum_address(a):
         a = Web3.to_checksum_address(a)
@@ -471,11 +496,28 @@ def update_local_cache(a):
         cache_tx = get_new_transactions(a,last_cached_block,cache_tx)
     return cache_tx
 
+#---------------------------
+# Check if we already have a local cache
+# Load txns into memory
+# Check the block number of the most recent txn
+# Get all erc20 token transfers for this address since the last one
+def update_local_erc20_cache(a):
+    if not Web3.is_checksum_address(a):
+        a = Web3.to_checksum_address(a)
+    cache_tx = get_local_erc20_cache(a)
+    if len(cache_tx) > 20000:
+        print('skipping update, already has > 20000 transactions')
+    else:
+        last_cached_block = find_largest_block(cache_tx)
+        cache_tx = get_new_erc20_transfers(a,last_cached_block,cache_tx)
+    return cache_tx
+
 #----------------------------
 # Starting from the last block we've cached, get all new
 # transactions
 # checksum address
 def get_new_transactions(a, last_cached_block, cache_tx):
+    global etherscan_api_key
     eth = Etherscan(etherscan_api_key)
     if not Web3.is_checksum_address(a):
         a = Web3.to_checksum_address(a)
@@ -517,6 +559,34 @@ def get_new_transactions(a, last_cached_block, cache_tx):
     print('Retrieved {} txns'.format(total))
     return cache_tx
 
+#----------------------------
+# Starting from the last block we've cached, get all new
+# transactions
+# checksum address
+def get_new_erc20_transfers(a, last_cached_block, cache_tx):
+    global etherscan_api_key
+    start = len(cache_tx)
+    eth = Etherscan(etherscan_api_key)
+    if not Web3.is_checksum_address(a):
+        a = Web3.to_checksum_address(a)
+    
+    # get normal transactions
+    results_external = []
+    try:
+        results_external = eth.get_erc20_token_transfer_events_by_address(a, last_cached_block+1, 99999999, 'asc')
+    except AssertionError as msg:
+        print(msg)
+    
+    i = 0
+
+    while i < len(results_external):
+        cache_tx.append(results_external[i])
+        i+=1
+
+    total = len(cache_tx) - start
+    print('Retrieved {} txns'.format(total))
+    return cache_tx
+
 #---------------------------
 # For now I'm assuming the json read in
 # will not be sorted by block number. This is
@@ -536,14 +606,35 @@ def find_largest_block(cache_tx):
 #---------------------------
 # if there is a local cache already, read it in
 # otherwise return an empty dictionsary
-# checksum address
 def get_local_cache(a):
+    global cache_dir
     if not Web3.is_checksum_address(a):
         a = Web3.to_checksum_address(a)
     print('Getting local cache: {}'.format(a))
     txs = []
     # the cache is stored in 0x<address>_cache.json
     filename = '{}/{}_cache.json'.format(cache_dir,a)
+    if not Path(filename).is_file():
+        print('no existing cache')
+    else:
+        print('Found file: {}'.format(filename))
+        tx_file = open(filename)
+        for line in tx_file.readlines():
+            jobject = json.loads(line.strip())
+            txs.append(jobject)
+    return txs
+
+#---------------------------
+# if there is a local cache already, read it in
+# otherwise return an empty dictionsary
+def get_local_erc20_cache(a):
+    global cache_dir
+    if not Web3.is_checksum_address(a):
+        a = Web3.to_checksum_address(a)
+    print('Getting local erc20 cache: {}'.format(a))
+    txs = []
+    # the cache is stored in 0x<address>_cache.json
+    filename = '{}/{}_erc20_cache.json'.format(cache_dir,a)
     if not Path(filename).is_file():
         print('no existing cache')
     else:
