@@ -135,7 +135,18 @@ def trace(address,update):
     # make sure we're dealing with checksum versions of addresses
     if not Web3.is_checksum_address(address):
         address = Web3.to_checksum_address(address)
-
+        
+    # don't trace through services, check if this is a service
+    if address in attribs and attribs[address]['category'] in ['exchange','decentralized exchange','gambling','merchant services']:
+        print('Attempting to trace through service, aborting')
+        print(address)
+        print(attribs[address])
+        sys.exit(0)
+    elif address in attribs and attribs[address]:
+        print('Tracing through known address')
+        print(address)
+        print(attribs[address])
+        
     # build a list of tainted addresses
     taintedAddresses = []
     # build a dictionary of tainted services
