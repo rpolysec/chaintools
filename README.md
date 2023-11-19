@@ -1,6 +1,8 @@
 # rpolysec Investigation Scripts
 
-Various python scripts for investigating blockchain transactions. There are definitely broken as is and is a work in progress. Uploading as I go, hoping eventually this will be usable by more people then me.
+Various python scripts for investigating blockchain transactions. These are definitely broken as is and is a work in progress. Uploading as I go, hoping eventually this will be usable by more people then me.
+
+Be kind. If you find this useuful or improve on it, please let me know. My motivation for making these open source is to reduce the bar for investigating blockchain thefts to hopefully encourage people to help victims who cannot afford expensive blockchain analytics firms.
 
 # Try These First
 
